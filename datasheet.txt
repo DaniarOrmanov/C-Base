@@ -1,0 +1,18 @@
+
+The program is designed to process temperature sensor
+data recorded line by line in a .csv file.
+The program works from the console.
+To build files and compile, you need to write the
+"make" command in the console.
+To run the program, you need to register the "prog"
+command and the necessary key:
+-h - display information about the program
+-f (file name.csv) - the switch opens a file with
+the same name for processing or displays an error
+message. This key and file name are required for
+the calculation
+-m (month number) - to process only one entered month.
+If this key is not entered, or the value after this
+key does not correspond to a natural number from 1
+to 12 inclusive, then the calculation will be made
+for the whole year
